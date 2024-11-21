@@ -39,3 +39,26 @@ for (i = 1; i <= min; i++) {
   }
   console.log(min);
 }
+
+let udur = 3;
+if (udur == 1) {
+  console.log("davaa");
+}
+if (udur == 2) {
+  console.log("myagmar");
+}
+if (udur == 3) {
+  console.log("lhagwa");
+}
+if (udur == 4) {
+  console.log("purew");
+}
+if (udur == 5) {
+  console.log("baasan");
+}
+if (udur == 6) {
+  console.log("bymba");
+}
+if (udur == 7) {
+  console.log("nyam");
+}
