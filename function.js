@@ -66,11 +66,16 @@
 // }
 // odd(15);
 
-function niilber(n) {
-  sum = 0;
-  for (i = 1; i < n; i++) {
-    sum = sum + i;
-  }
-  console.log(sum + i);
-}
-niilber(10);
+
+// 6.
+// function niilber(n) {
+//   sum = 0;
+//   for (i = 1; i < n; i++) {
+//     sum = sum + i;
+//   }
+//   console.log(sum + i);
+// }
+// niilber(10);
+
+
+7.
