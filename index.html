@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const inventory = [
+        { name: "apples", quantity: 3 },
+        { name: "bananas", quantity: 0 },
+        { name: "cherries", quantity: 5 },
+      ];
+      let search = prompt("Та хайх зүйлээ оруулна уу");
+      let fountitem = inventory.find((friut) => {
+        if (friut.name == search) {
+          return search;
+        } else {
+          return (search = 0);
+        }
+        return friut.name === inventory.quantity;
+      });
+      if (search === 0) {
+        let notfound = alert("tanii haisn ym oldsongv");
+      } else {
+        alert(fountitem.name);
+        console.log("tanii haisan ym ", fountitem);
+      }
+    </script>
+  </body>
+</html>
